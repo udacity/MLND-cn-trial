@@ -34,9 +34,8 @@
 **特征**
 
 1. `id`: 数据编号，例如“24717”
-2. `cuisine`: 菜名，例如“Indian”
-3. `ingredients`: 此菜所包含的原料，例如["tumeric", "vegetable stock", ...] 
+2. `ingredients`: 此菜所包含的原料，例如["tumeric", "vegetable stock", ...] 
 
 **目标变量**
 
-`cuisine`: 菜名
+`cuisine`: 菜名，例如“indian”
