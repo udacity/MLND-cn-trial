@@ -6,14 +6,18 @@
 这个项目需要安装 **Python3** 和以下的 Python 函数库：
 
 - [Pandas](https://pandas.pydata.org/)
-- [NumPy](http://www.numpy.org/)
-- [matplotlib](http://matplotlib.org/)
-- [nltk](https://www.nltk.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+- [NumPy](http://www.numpy.org/):数值计算
+- [matplotlib](http://matplotlib.org/): 用于画图
+- [nltk](https://www.nltk.org/): 用于处理单词文本
+- [scikit-learn](http://scikit-learn.org/stable/): 用于模型训练和分析
+- [jupyter,notebook](http://jupyter.org/): 实验基本环境，以运行和编辑 `.ipynb`
 
-你还需要安装一个软件，以运行和编辑 [.ipynb](http://jupyter.org/) 文件。
+```bash
+pip install pandas numpy matplotlib nltk scikit-learn jupyter notebook
+python -c "import nltk; ntk.download('wordnet')"
+```
 
-优达学城推荐学生安装 [Anaconda](https://www.continuum.io/downloads)，这是一个常用的 Python 集成编译环境，且已包含了本项目中所需的全部函数库。
+优达学城推荐学生安装 [Anaconda](https://www.continuum.io/downloads)，这是一个常用的 Python 集成编译环境，且已包含了本项目中所需的全部函数库（除`nltk`外）。
 
 ### 代码
 
@@ -33,9 +37,9 @@
 
 **特征**
 
-1. `id`: 数据编号，例如“24717”
+1. `id`: 数据编号，例如, "24717".
 2. `ingredients`: 此菜所包含的原料，例如["tumeric", "vegetable stock", ...] 
 
 **目标变量**
 
-`cuisine`: 菜名，例如“indian”
+`cuisine`: 菜名，例如,"indian".
