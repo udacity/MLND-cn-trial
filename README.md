@@ -14,7 +14,7 @@
 
 ```bash
 pip install pandas numpy matplotlib nltk scikit-learn jupyter notebook
-python -c "import nltk; ntk.download('wordnet')"
+python -c "import nltk; nltk.download('wordnet')"
 ```
 
 优达学城推荐学生安装 [Anaconda](https://www.continuum.io/downloads)，这是一个常用的 Python 集成编译环境，且已包含了本项目中所需的全部函数库（除`nltk`外）。
